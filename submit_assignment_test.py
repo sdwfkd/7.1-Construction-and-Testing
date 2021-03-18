@@ -2,7 +2,7 @@ import pytest
 import System
 
 #Tests if the program can handle submitting a fake assignment
-def test_grade_change(grading_system):
+def test_submit_assignment(grading_system):
     assignment_name = 'assignment42'
     current_date = '04/01/20'
     course = 'cloud_computing'
