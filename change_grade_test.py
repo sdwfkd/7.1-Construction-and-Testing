@@ -1,5 +1,5 @@
 import pytest
-import Staff
+import System
 
 #Tests if the program can handle a grade change
 def test_grade_change(grading_system):
