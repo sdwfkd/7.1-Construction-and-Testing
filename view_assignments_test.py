@@ -2,7 +2,7 @@ import pytest
 import System
 
 #Tests if the program can handle viewing a course the student isnt in
-def test_grade_change(grading_system):
+def test_view_assignments(grading_system):
     course = 'cloud_computing'
     grading_system.usr.view_assignments(course)
     
