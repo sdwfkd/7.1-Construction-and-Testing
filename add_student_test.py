@@ -5,7 +5,7 @@ import System
 def test_grade_change(grading_system):
     name = 'yted91'
     course = 'databases'
-    grading_system.usr.create_assignment(name, course)
+    grading_system.usr.add_student(name, course)
     
 
 @pytest.fixture
