@@ -1,7 +1,7 @@
 import pytest
 import System
 
-#Tests if the program can add a student
+#Tests if the program can add a student to a class
 def test_grade_change(grading_system):
     name = 'yted91'
     course = 'databases'
