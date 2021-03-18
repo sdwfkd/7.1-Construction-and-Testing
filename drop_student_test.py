@@ -2,7 +2,7 @@ import pytest
 import System
 
 #Tests if the program can drop a fake student from a class
-def test_grade_change(grading_system):
+def test_drop_student(grading_system):
     name = 'NotPresent'
     course = 'cloud_computing'
     grading_system.usr.drop_student(name, course)
